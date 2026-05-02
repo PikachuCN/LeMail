@@ -1,0 +1,35 @@
+{
+  "server": {
+    "httpAddr": "0.0.0.0:3000"
+  },
+  "smtp": {
+    "addr": "0.0.0.0:2525"
+  },
+  "mail": {
+    "domains": ["localhost"],
+    "retention": "1h",
+    "reservedLocalParts": ["admin", "postmaster", "system", "webmaster", "administrator", "hostmaster", "service", "server", "root"]
+  },
+  "access": {
+    "mode": "public",
+    "passwordHash": ""
+  },
+  "admin": {
+    "username": "admin",
+    "passwordHash": ""
+  },
+  "api": {
+    "enabled": false,
+    "tokenHash": ""
+  },
+  "openai": {
+    "enabled": false,
+    "apiKey": "",
+    "baseURL": "https://api.openai.com/v1",
+    "model": "gpt-5.4-mini",
+    "timeout": "15s",
+    "apiMode": "auto"
+  },
+  "webhooks": [],
+  "codeProjects": []
+}

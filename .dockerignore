@@ -1,0 +1,15 @@
+.git
+.github
+.gocache
+.gotmp
+web/node_modules
+web/dist
+bin
+coverage
+*.test
+*.out
+lemail
+lemail.exe
+config/config.json
+
+

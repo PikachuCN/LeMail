@@ -1,0 +1,35 @@
+# Build outputs
+/dist/
+/bin/
+/coverage/
+
+# Go
+*.test
+*.out
+/vendor/
+
+# Frontend
+/web/node_modules/
+/web/dist/
+/web/.vite/
+
+# Runtime config and local env
+/config/config.json
+.env
+.env.*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local Go test caches
+/.gocache/
+/.gotmp/
+
+# Local binaries
+/lemail
+/lemail.exe
+
+

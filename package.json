@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "npm --prefix web run build",
+    "typecheck": "npm --prefix web run typecheck",
+    "dev": "npm --prefix web run dev"
+  },
+  "private": true,
+  "name": "lemail",
+  "author": "PikachuCN"
+}
